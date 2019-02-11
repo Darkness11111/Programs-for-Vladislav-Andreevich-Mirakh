@@ -1,0 +1,24 @@
+#ifndef BOOK_H_CLASS
+#define BOOK_H_CLASS
+
+
+#include <map>
+#include <string>
+#include <fstream>
+#include <assert.h>
+
+
+class Book
+{
+    private:
+        std::map <std::string, int> dict;
+        long long num_words;
+    public:
+        Book( );
+        ~Book( );
+        int get_book(char* file_name);
+        int write_book( ); 
+};
+
+
+#endif
