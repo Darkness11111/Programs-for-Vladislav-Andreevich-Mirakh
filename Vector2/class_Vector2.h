@@ -1,4 +1,4 @@
-// class_Vector2.h - VT_0.0
+// class_Vector2.h - VT_1.0
 #pragma once
 #include <cmath>
 #include <iostream>
